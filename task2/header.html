@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CarDekho - Home</title>
+
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <script src="script.js"></script>
+    <header>
+        <nav>
+            <div class="container">
+                <div class="logo">
+                    <img src="cardekho-logo.png" alt="CarDekho Logo">
+                    <h1>CarDekho</h1>
+                </div>
+                <div class="nav-search">
+                    <input type="text" id="search-input" placeholder="Search...">
+                    <button id="search-button">Search</button>
+                </div>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Search</a></li>
+                    <li><a href="#">About Us</a></li>
+                    <li><a href="#">Contact</a></li>
+                    <li><a href="#">Login</a></li>
+                    <li><a href="#">Register</a></li>
+                    <li id="translate-link"><a href="#">Translate</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+<!-- ... (previous HTML code) ... -->
+
+<section class="banner">
+    <div class="container">
+        <h2>Welcome to CarDekho</h2>
+        <p>Discover the latest cars and more!</p>
+    </div>
+</section>
+
+<section class="find-your-car">
+    <div class="container">
+        <h2>Find Your Car</h2>
+        <div class="choose-options">
+            <h3>Choose Option</h3>
+            <div class="choose-type">
+                <label>
+                    <input type="radio" name="car-type" value="new">
+                    New Car
+                </label>
+                <label>
+                    <input type="radio" name="car-type" value="old">
+                    Used Car
+                </label>
+            </div>
+        </div>
+        <div class="filter-options">
+            <h3>Filter Options</h3>
+            <div class="filter-by-budget">
+                <label for="budget-checkbox">
+                    <input type="checkbox" id="budget-checkbox">
+                    By Budget
+                </label>
+                <input type="range" id="budget-range" min="0" max="100" value="0">
+                <span id="budget-value">0</span>
+            </div>
+            <div class="filter-by-brand">
+                <label for="brand-checkbox">
+                    <input type="checkbox" id="brand-checkbox">
+                    By Brand
+                </label>
+                <select id="brand-select">
+                    <option value="all">All Brands</option>
+                    <option value="brand1">Brand 1</option>
+                    <option value="brand2">Brand 2</option>
+                    <option value="brand2">Brand 2</option>
+                    <option value="brand2">Brand 2</option>
+                    <!-- Add more brand options -->
+                </select>
+            </div>
+        </div>
+        <button id="search-button">Search</button>
+    </div>
+</section>
+
+
+<!-- ... (previous HTML code) ... -->
+
+<section class="electric-cars">
+    <div class="container">
+        <h2>Electric Cars</h2>
+        <div class="car-options">
+            <div class="option popular-option">
+                <h3>Popular</h3>
+                <div class="car-listings">
+                    <!-- Popular Cars (Initially hidden) -->
+                    <!-- Car 1 -->
+                    <div class="car">
+                        <img src="car1.jpg" alt="Car 1">
+                        <h4>Car 1</h4>
+                        <p>Price: $30,000</p>
+                    </div>
+                    <!-- Car 2 -->
+                    <div class="car">
+                        <img src="car2.jpg" alt="Car 2">
+                        <h4>Car 2</h4>
+                        <p>Price: $35,000</p>
+                    </div>
+                    <!-- Add more popular car listings as needed -->
+                </div>
+            </div>
+            <div class="option upcoming-option">
+                <h3>Upcoming</h3>
+                <div class="car-listings">
+                    <!-- Upcoming Cars (Initially hidden) -->
+                    <!-- Car 3 -->
+                    <div class="car">
+                        <img src="car3.jpg" alt="Car 3">
+                        <h4>Car 3</h4>
+                        <p>Price: $40,000</p>
+                    </div>
+                    <!-- Car 4 -->
+                    <div class="car">
+                        <img src="car4.jpg" alt="Car 4">
+                        <h4>Car 4</h4>
+                        <p>Price: $45,000</p>
+                    </div>
+                    <!-- Add more upcoming car listings as needed -->
+                </div>
+            </div>
+            <div class="option latest-option">
+                <h3>Latest</h3>
+                <div class="car-listings">
+                    <!-- Latest Cars (Initially hidden) -->
+                    <!-- Car 5 -->
+                    <div class="car">
+                        <img src="car5.jpg" alt="Car 5">
+                        <h4>Car 5</h4>
+                        <p>Price: $50,000</p>
+                    </div>
+                    <!-- Car 6 -->
+                    <div class="car">
+                        <img src="car6.jpg" alt="Car 6">
+                        <h4>Car 6</h4>
+                        <p>Price: $55,000</p>
+                    </div>
+                    <!-- Add more latest car listings as needed -->
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- ... (rest of the page content) ... -->
+
+
+
+
+
+    <footer>
+        <div class="container">
+            <div class="footer-horizontal">
+                <div class="footer-logo">
+                    <h1>CarDekho</h1>
+                </div>
+                <div class="footer-contact">
+                    <h3>Contact Us</h3>
+                    <!-- Add contact information here -->
+                </div>
+            </div>
+            <div class="footer-links">
+                <ul>
+                    <li><a href="#">Privacy Policy</a></li>
+                    <li><a href="#">Terms of Service</a></li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+    <!-- ... (previous HTML code) ... -->
+
+<section class="contact">
+    <div class="container">
+        <div class="contact-sections">
+            <div class="contact-section">
+                <h3>About CarDekho</h3>
+                <ul>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Careers With Us</a></li>
+                    <li><a href="#">Terms & Conditions</a></li>
+                    <li><a href="#">Privacy Policy</a></li>
+                    <li><a href="#">Corporate Policies</a></li>
+                    <li><a href="#">Investors</a></li>
+                    <li><a href="#">FAQs</a></li>
+                </ul>
+            </div>
+            <div class="contact-section">
+                <h3>Connect With Us</h3>
+                <ul>
+                    <li><a href="#">Feedback</a></li>
+                    <li><a href="#">Contact Us</a></li>
+                    <li><a href="#">Advertise with Us</a></li>
+                </ul>
+            </div>
+            <div class="contact-section">
+                <h3>Others</h3>
+                <ul>
+                    <li><a href="#">Health Insurance</a></li>
+                    <li><a href="#">Term Insurance</a></li>
+                    <li><a href="#">Life Insurance</a></li>
+                    <li><a href="#">Crack-ED</a></li>
+                    <li><a href="#">Personal loan</a></li>
+                    <li><a href="#">TyreDekho</a></li>
+                    <li><a href="#">BatteryDekho</a></li>
+                    <li><a href="#">Girnar Vision Fund</a></li>
+                </ul>
+            </div>
+            <div class="contact-section">
+                <h3>Follow Us</h3>
+                <ul>
+                    <li><a href="#">Facebook</a></li>
+                    <li><a href="#">Twitter</a></li>
+                    <li><a href="#">Instagram</a></li>
+                    <li><a href="#">LinkedIn</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- ... (rest of the page content) ... -->
+
+
+    <script src="script.js"></script>
+</body>
+</html>
